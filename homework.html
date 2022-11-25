@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME WORK</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./footer.css">
+    <style>
+        img {
+            max-width: 100%;
+            vertical-align: middle;
+        }
+
+
+        .hover {
+            padding: 100px 0;
+        }
+
+
+        .inner {
+            gap: 50px;
+            display: flex;
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        .inner figure {
+            position: relative;
+            flex: 1;
+            /*overflow: hidden;*/
+        }
+
+        .inner figure .box {
+            background: rgba(0, 0, 0, 0.3);
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: 0.5s;
+        }
+
+
+        .inner figure:hover .box {
+            background: rgba(0, 0, 0, 0.3);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="header">
+            <div class="inner flex">
+                <h1>
+                    <a href="/">
+                        <img src="./logo_3ce.png" alt="">
+                    </a>
+                </h1>
+                <nav class="gnb">
+                    <ul class="flex">
+                        <li><a href="">WHAT'S NEW</a>
+                            <ul>
+                                <li><a href="">New in</a></li>
+                                <li><a href="">Best</a></li>
+                                <li><a href="">Special Edition</a></li>
+                                <li><a href="">Exclusive</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">BEAUTY</a>
+                            <ul>
+                                <li><a href="">Face</a></li>
+                                <li><a href="">Lip</a></li>
+                                <li><a href="">Eye</a></li>
+                                <li><a href="">Chic</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">FASHION</a>
+                            <ul>
+                                <li><a href="">Outer</a></li>
+                                <li><a href="">Top</a></li>
+                                <li><a href="">Bottom</a></li>
+                                <li><a href="">Bag</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">ABOUT 3CE</a>
+                            <ul>
+                                <li><a href="">Brand</a></li>
+                                <li><a href="">Store</a></li>
+                                <li><a href="">A bout</a></li>
+
+                            </ul>
+                        </li>
+                        <li><a href="">NOTICE</a>
+                            <ul>
+                                <li><a href="">Review</a></li>
+                                <li><a href="">Help</a></li>
+                                <li><a href="">Login</a></li>
+                                <li><a href="">Cart</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="mainVisual">
+                <div class="inner">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione facere commodi minus? <br />
+                        Saepe veniam modi ducimus perferendis dignissimos?</p>
+                </div>
+            </section>
+
+
+
+            <!-- {hwang 20221125 메인수정-->
+            <section class="mainContent">
+
+
+                <h2>Welcome to<br />
+                    3CE, the Creative House</h2>
+                <p>뷰티 패션을 넘어 더 많은 방식과 새로운 시선으로 영감을 전하는<br />
+                    3CE 크리에이티브 하우스에 오신 걸 환영합니다.</p>
+                <section class="hover">
+                    <div class="inner">
+                        <figure>
+                            <img src="./m01.jpg" alt="">
+                            <div class="box">
+                                <span>3CE SKIN FIT COVER
+                                </span>
+                            </div>
+                        </figure>
+                        <figure>
+                            <img src="./m02.jpg" alt="">
+                            <div class="box">
+                                <span>3CE MAKEUP FIX POWDER #FAIR</span>
+                            </div>
+                        </figure>
+                        <figure>
+                            <img src="./m04.jpg" alt="">
+                            <div class="box">
+                                <span>3CE GLOW BEAM</span>
+                            </div>
+                        </figure>
+                    </div>
+                </section>
+            </section>
+            <!--}-->
+        </main>
+        <footer class="footer">
+            <div class="inner">
+                <ul class="list">
+                    <li><a href="">회사소개</a></li>
+                    <li><a href="">인재채용</a></li>
+                    <li><a href="">제휴제안</a></li>
+                    <li><a href="">이용약관</a></li>
+                    <li class="bold"><a href="">개인정보처리방침</a></li>
+                    <li><a href="">청소년보호정책</a></li>
+                    <li><a href="">네이버 정책</a></li>
+                    <li><a href="">고객센터</a></li>
+                </ul>
+                <address>
+                    &copy; naver Corp.
+                </address>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
